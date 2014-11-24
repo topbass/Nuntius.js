@@ -1,1 +1,31 @@
-package.json
+{
+    "name": "nuntius",
+    "version": "0.1.0",
+    "description": "Web page instance messenger",
+    "private": true,
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "test": "jasmine-node --verbose tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waltzofpearls/nuntius.git"
+    },
+    "keywords": [
+        "Instance Messenger",
+        "IM"
+    ],
+    "author": "Waltz.of.Pearls <rollie@topbasslabs.com, rollie.ma@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/waltzofpearls/nuntius/issues"
+    },
+    "homepage": "https://github.com/waltzofpearls/nuntius",
+    "dependencies": {
+        "express": "4.*"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
