@@ -18,7 +18,7 @@
     "url": "https://github.com/waltzofpearls/nuntius/issues"
   },
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "DEBUG=nuntius node ./bin/www",
     "test": "jasmine-node --verbose tests"
   },
   "dependencies": {
