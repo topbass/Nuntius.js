@@ -22,7 +22,8 @@
   },
   "scripts": {
     "start": "DEBUG=nuntius node ./bin/www",
-    "test": "node_modules/mocha/bin/mocha --reporter spec --bail --check-leaks tests"
+    "test": "node_modules/mocha/bin/mocha --reporter spec --bail --check-leaks tests",
+    "build": "grunt build"
   },
   "dependencies": {
     "express": "~4.9.0",
